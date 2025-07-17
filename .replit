@@ -7,3 +7,15 @@ channel = "stable-24_05"
 [[ports]]
 localPort = 8888
 externalPort = 80
+
+[workflows]
+runButton = "Run Weather App"
+
+[[workflows.workflow]]
+name = "Run Weather App"
+author = 45178511
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python app.py"
