@@ -6,8 +6,8 @@ A simple web application that allows users to upload an image and view the resul
 
 1. **Clone the repository** (if applicable):
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git 
-   cd your-repo-name
+   git clone https://github.com/WuorBhang/Indabax_South_Sudan_Hackathon.git
+   cd Indabax_South_Sudan_Hackathon
    
 2. **Install dependencies**:
    ```bash
